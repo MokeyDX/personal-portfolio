@@ -1,0 +1,8 @@
+Resume Placeholder
+
+Replace this file with your real resume PDF when you are ready.
+
+Suggested filename:
+your-name-resume.pdf
+
+After replacing it, update resumePath in src/data/portfolio.js.
