@@ -1,8 +1,8 @@
 // Edit this file first when you want to personalize the portfolio.
 export const portfolio = {
   initials: 'DAGR',
-  profileImage: 'images/profile-placeholder.svg',
-  profileImageAlt: 'Portrait placeholder for Diego A Guerrero',
+  profileImage: 'images/profile.png',
+  profileImageAlt: 'Diego A Guerrero',
   resumePath: 'Guerrero_Diego_cv.pdf',
   contact: {
     email: 'diegogrro04@gmail.com',
@@ -83,27 +83,27 @@ export const portfolio = {
         items: [
           {
             title: 'Project One',
-            description: 'Replace this with a class project, personal app, or experiment you are proud of.',
-            tag: 'Web App',
-            image: 'images/project-placeholder-1.svg',
+            description: 'Extendable Editor in C++.',
+            tag: 'C++',
+            image: 'images/project-one.png',
             imageAlt: 'Placeholder screenshot for Project One',
             githubUrl: '#',
             demoUrl: '#',
           },
           {
             title: 'Project Two',
-            description: 'Add the problem, your role, the tools you used, and what you learned.',
-            tag: 'React',
-            image: 'images/project-placeholder-2.svg',
+            description: 'Connect-4 game in Haskell.',
+            tag: 'Haskell',
+            image: 'images/project-two.png',
             imageAlt: 'Placeholder screenshot for Project Two',
             githubUrl: '#',
             demoUrl: '#',
           },
           {
             title: 'Project Three',
-            description: 'Use a screenshot later so visitors can understand the project quickly.',
+            description: 'Self Blancing Tree in Python (AVL Tree).',
             tag: 'Student Work',
-            image: 'images/project-placeholder-3.svg',
+            image: 'images/project-three.png',
             imageAlt: 'Placeholder screenshot for Project Three',
             githubUrl: '#',
             demoUrl: '#',
