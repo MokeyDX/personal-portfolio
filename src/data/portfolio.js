@@ -1,11 +1,11 @@
 // Edit this file first when you want to personalize the portfolio.
 export const portfolio = {
-  initials: 'YN',
+  initials: 'DAGR',
   resumePath: 'resume-placeholder.txt',
   contact: {
-    email: 'your.email@example.com',
-    githubUrl: 'https://github.com/your-username',
-    location: 'Your City, Country',
+    email: 'diegogrro04@gmail.com',
+    githubUrl: 'https://github.com/MokeyDX',
+    location: 'El Paso, USA',
   },
   languages: {
     en: {
@@ -25,21 +25,21 @@ export const portfolio = {
       },
       hero: {
         eyebrow: 'Student developer portfolio',
-        heading: 'Your Name builds thoughtful web experiences.',
+        heading: 'Diego A Guerrero.',
         summary:
-          'A creative, minimal portfolio template for a student developer learning to turn ideas into responsive, useful products.',
+          'Student in Computer Science at The University of Texas at El Paso.',
         resumeButton: 'Download resume',
         projectsButton: 'View projects',
         cardAriaLabel: 'Student developer profile summary',
         cardLabel: 'Available for learning opportunities',
         cardTitle: 'Frontend focused. Curious by design.',
-        cardNote: 'Replace this card with your photo, your strongest skill, or a short personal note.',
+        cardNote: '...', // Note or Skill to add
       },
       about: {
         eyebrow: 'About',
         title: 'A practical learner with a creative eye.',
         body:
-          'Use this section to introduce yourself, your academic path, what you are learning, and the kind of software problems you enjoy solving. Keep it honest and specific, like a good classroom introduction.',
+          'Passionate in programming, looking to develop Full Stack skills and AI.',
         stats: [
           { value: '01', label: 'Portfolio owner' },
           { value: '03+', label: 'Skill areas' },
@@ -58,12 +58,12 @@ export const portfolio = {
           {
             icon: 'BookOpen',
             title: 'Foundations',
-            items: ['Programming logic', 'Git basics', 'Responsive design', 'Accessibility'],
+            items: ['Programming logic', 'Data Structures' ,'Git basics', 'Responsive design', 'Accessibility'],
           },
           {
             icon: 'GraduationCap',
             title: 'Student workflow',
-            items: ['Research', 'Documentation', 'Presentations', 'Team projects'],
+            items: ['Documentation', 'Presentations', 'Team projects'], // Research
           },
           {
             icon: 'Sparkles',
@@ -104,19 +104,19 @@ export const portfolio = {
       },
       education: {
         eyebrow: 'Education',
-        title: 'Your academic path belongs here.',
+        title: 'Studying for BS in Computer Science',
         items: [
           {
-            period: '2026 - Present',
-            program: 'Your Degree or Program',
-            school: 'Your School or University',
-            note: 'Mention relevant courses, clubs, certifications, or academic projects.',
+            period: '2023 - Present',
+            program: 'Computer Science',
+            school: 'The University of Texas at EL Paso',
+            note: 'Currently in my last year of my degree. Relevant course: Adv OOP, Programming Languages, Databases.',
           },
           {
             period: 'Upcoming',
-            program: 'Next Learning Goal',
-            school: 'Online course, bootcamp, or independent study',
-            note: 'Use this space to show where your learning is going next.',
+            program: 'BS degree in Computer Science.',
+            school: 'The University of Texas at El Paso',
+            note: 'Software Design, OS, Parallel Computing, and MS in AI.',
           },
         ],
       },
@@ -124,8 +124,8 @@ export const portfolio = {
         eyebrow: 'Contact',
         title: 'Simple ways to reach you.',
         body:
-          'This template uses contact links instead of a sending form. Replace the placeholders with your real email, GitHub, and location when you are ready.',
-        githubLabel: 'GitHub profile',
+          'diegogrro04@gmail.com',
+        githubLabel: 'MokeyDX',
       },
       footer: {
         note: 'Built with React, Vite, and an editable data file.',
@@ -149,30 +149,30 @@ export const portfolio = {
       },
       hero: {
         eyebrow: 'Portafolio de estudiante developer',
-        heading: 'Your Name construye experiencias web con intencion.',
+        heading: 'Diego construye experiencias web con intencion',
         summary:
-          'Una plantilla creativa y minimalista para un estudiante developer que esta aprendiendo a convertir ideas en productos utiles y responsivos.',
+          'Estudiante de Ciencias Computacionales en la Universidad de Texas en El Paso.',
         resumeButton: 'Descargar CV',
         projectsButton: 'Ver proyectos',
         cardAriaLabel: 'Resumen del perfil de estudiante developer',
         cardLabel: 'Disponible para oportunidades de aprendizaje',
-        cardTitle: 'Enfoque frontend. Curiosidad por diseno.',
-        cardNote: 'Reemplaza esta tarjeta con tu foto, tu habilidad principal o una nota personal breve.',
+        cardTitle: 'Enfoque frontend. Curiosidad por diseño.',
+        cardNote: '...', // Nota o foto
       },
       about: {
         eyebrow: 'Sobre mi',
         title: 'Una persona practica para aprender, con ojo creativo.',
         body:
-          'Usa esta seccion para presentarte, contar tu camino academico, lo que estas aprendiendo y los problemas de software que disfrutas resolver. Mantenlo honesto y especifico, como una buena presentacion en clase.',
+          'Apasionado por la programación, busco desarrollar habilidades Full Stack e IA.',
         stats: [
-          { value: '01', label: 'Duenio del portafolio' },
+          { value: '01', label: 'Dueño del portafolio' },
           { value: '03+', label: 'Areas de habilidad' },
           { value: '100%', label: 'Plantilla editable' },
         ],
       },
       skills: {
         eyebrow: 'Habilidades',
-        title: 'Herramientas que puedes cambiar mientras creces.',
+        title: 'Herramientas que conozco.',
         groups: [
           {
             icon: 'Code2',
@@ -182,23 +182,23 @@ export const portfolio = {
           {
             icon: 'BookOpen',
             title: 'Fundamentos',
-            items: ['Logica de programacion', 'Git basico', 'Diseno responsivo', 'Accesibilidad'],
+            items: ['Logica de Programacion', 'Estructura de Datos', 'Git Basico', 'Diseño Responsivo', 'Accesibilidad'],
           },
           {
             icon: 'GraduationCap',
             title: 'Flujo de estudiante',
-            items: ['Investigacion', 'Documentacion', 'Presentaciones', 'Proyectos en equipo'],
+            items: ['Documentacion', 'Presentaciones', 'Proyectos en equipo'], // Investigacion
           },
           {
             icon: 'Sparkles',
             title: 'Toque creativo',
-            items: ['Detalles UI', 'Sistemas de color', 'Microinteracciones', 'Definicion de problemas'],
+            items: ['Detalles UI', 'Sistemas de color', 'Microinteracciones', 'Definicion de Problemas'],
           },
         ],
       },
       projects: {
         eyebrow: 'Proyectos',
-        title: 'Proyectos placeholder para tu proximo trabajo.',
+        title: 'Proyectos.',
         intro:
           'Estas tarjetas estan listas para proyectos reales despues. Piensa en ellas como vitrinas vacias: la forma ya existe, solo falta poner tu mejor trabajo dentro.',
         actionAriaLabel: 'Enlaces del proyecto',
@@ -228,28 +228,28 @@ export const portfolio = {
       },
       education: {
         eyebrow: 'Educacion',
-        title: 'Tu camino academico va aqui.',
+        title: 'Actualmente curso la licenciatura en Ciencias de la Computación.',
         items: [
           {
-            period: '2026 - Presente',
-            program: 'Tu carrera o programa',
-            school: 'Tu escuela o universidad',
-            note: 'Menciona cursos relevantes, clubes, certificaciones o proyectos academicos.',
+            period: '2023 - Presente',
+            program: 'Licenciatura en Ciencias de la Computación',
+            school: 'The Univeristy of Texas at El Paso',
+            note: 'Actualmente curso el último año de mi carrera. Asignaturas relevantes: Programación Orientada a Objetos Avanzada, Lenguajes de Programación, Bases de Datos.',
           },
           {
             period: 'Proximamente',
-            program: 'Siguiente meta de aprendizaje',
-            school: 'Curso online, bootcamp o estudio independiente',
-            note: 'Usa este espacio para mostrar hacia donde va tu aprendizaje.',
+            program: 'Licenciatura en Ciencias de la Computarcion',
+            school: 'The University of Texas at El Paso',
+            note: 'Diseño de Software, Sistemas Operativos, Computación Paralela y Maestría en IA.',
           },
         ],
       },
       contact: {
         eyebrow: 'Contacto',
-        title: 'Formas simples de contactarte.',
+        title: 'Formas simples de contactarme.',
         body:
-          'Esta plantilla usa enlaces de contacto en lugar de un formulario. Reemplaza los placeholders con tu email, GitHub y ubicacion cuando estes listo.',
-        githubLabel: 'Perfil de GitHub',
+          'diegogrro04@gmail.com',
+        githubLabel: 'MokeyDX',
       },
       footer: {
         note: 'Construido con React, Vite y un archivo de datos editable.',
