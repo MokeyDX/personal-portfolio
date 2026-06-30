@@ -25,13 +25,26 @@ const iconMap = {
   Sparkles,
 }
 
+function getAssetUrl(path) {
+  if (!path) {
+    return ''
+  }
+
+  if (/^(https?:|data:|mailto:)/.test(path)) {
+    return path
+  }
+
+  return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
+}
+
 function App() {
   const [language, setLanguage] = useState('en')
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark')
   const [menuOpen, setMenuOpen] = useState(false)
 
   const content = portfolio.languages[language]
-  const resumeUrl = `${import.meta.env.BASE_URL}${portfolio.resumePath}`
+  const profileImageUrl = getAssetUrl(portfolio.profileImage)
+  const resumeUrl = getAssetUrl(portfolio.resumePath)
 
   const navItems = useMemo(
     () => [
@@ -73,7 +86,7 @@ function App() {
       />
 
       <main>
-        <Hero content={content} resumeUrl={resumeUrl} />
+        <Hero content={content} profileImageUrl={profileImageUrl} resumeUrl={resumeUrl} />
         <About content={content} />
         <Skills content={content} />
         <Projects content={content} />
@@ -127,7 +140,7 @@ function Header({
   )
 }
 
-function Hero({ content, resumeUrl }) {
+function Hero({ content, profileImageUrl, resumeUrl }) {
   return (
     <section className="hero-section" id="home">
       <div className="hero-copy reveal">
@@ -152,7 +165,11 @@ function Hero({ content, resumeUrl }) {
           <span></span>
           <span></span>
         </div>
-        <div className="avatar-placeholder">{portfolio.initials}</div>
+        {profileImageUrl ? (
+          <img className="profile-photo" src={profileImageUrl} alt={portfolio.profileImageAlt} />
+        ) : (
+          <div className="avatar-placeholder">{portfolio.initials}</div>
+        )}
         <p>{content.hero.cardLabel}</p>
         <strong>{content.hero.cardTitle}</strong>
         <small>{content.hero.cardNote}</small>
@@ -211,6 +228,9 @@ function Projects({ content }) {
         {content.projects.items.map((project) => (
           <article className="project-card" key={project.title}>
             <div className="project-preview">
+              {project.image ? (
+                <img src={getAssetUrl(project.image)} alt={project.imageAlt} loading="lazy" />
+              ) : null}
               <span>{project.tag}</span>
             </div>
             <div className="project-body">

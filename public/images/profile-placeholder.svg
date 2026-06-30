@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">Abstract teal portrait placeholder for the portfolio profile card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#243f3f"/>
+      <stop offset="0.55" stop-color="#5f918c"/>
+      <stop offset="1" stop-color="#2fb8b0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#bffcff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#dcc9a6" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="232" r="96" fill="url(#shine)"/>
+  <path d="M138 514c23-103 83-156 162-156s139 53 162 156" fill="url(#shine)"/>
+  <path d="M88 96h424M88 504h424M96 88v424M504 88v424" stroke="#bffcff" stroke-opacity="0.18" stroke-width="2"/>
+  <text x="300" y="568" fill="#bffcff" font-family="Verdana, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Replace with your photo</text>
+</svg>

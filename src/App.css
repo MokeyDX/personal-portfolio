@@ -210,20 +210,30 @@
   --ring-gap: 168px;
 }
 
-.avatar-placeholder {
+.avatar-placeholder,
+.profile-photo {
   align-items: center;
-  background: linear-gradient(135deg, var(--slate), var(--teal));
   border: 1px solid color-mix(in srgb, var(--ice) 25%, transparent);
   border-radius: 8px;
+  height: 190px;
+  margin: 72px auto 34px;
+  position: relative;
+  width: 190px;
+}
+
+.avatar-placeholder {
+  background: linear-gradient(135deg, var(--slate), var(--teal));
   color: var(--ice);
   display: flex;
   font-size: 4rem;
   font-weight: 900;
-  height: 190px;
   justify-content: center;
-  margin: 72px auto 34px;
-  position: relative;
-  width: 190px;
+}
+
+.profile-photo {
+  background: var(--soft-surface);
+  display: block;
+  object-fit: cover;
 }
 
 .profile-panel p,
@@ -365,7 +375,24 @@
     repeating-linear-gradient(135deg, color-mix(in srgb, var(--ice) 20%, transparent) 0 1px, transparent 1px 18px),
     var(--slate);
   display: flex;
+  overflow: hidden;
   padding: 18px;
+  position: relative;
+}
+
+.project-preview img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.project-preview::after {
+  background: linear-gradient(180deg, transparent 35%, color-mix(in srgb, var(--slate) 78%, transparent));
+  content: '';
+  inset: 0;
+  position: absolute;
 }
 
 .project-preview span {
@@ -375,6 +402,8 @@
   font-size: 0.82rem;
   font-weight: 800;
   padding: 7px 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .project-body {
@@ -550,7 +579,8 @@
     min-height: 360px;
   }
 
-  .avatar-placeholder {
+  .avatar-placeholder,
+  .profile-photo {
     height: 150px;
     margin-top: 58px;
     width: 150px;

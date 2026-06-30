@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Project screenshot placeholder two</title>
+  <desc id="desc">Code editor style placeholder image for a portfolio project card.</desc>
+  <rect width="900" height="620" fill="#101c1c"/>
+  <rect x="72" y="72" width="756" height="476" rx="18" fill="#203838" stroke="#2fb8b0" stroke-width="3"/>
+  <circle cx="120" cy="118" r="13" fill="#dcc9a6"/>
+  <circle cx="160" cy="118" r="13" fill="#5f918c"/>
+  <circle cx="200" cy="118" r="13" fill="#bffcff"/>
+  <rect x="120" y="178" width="180" height="24" rx="6" fill="#bffcff"/>
+  <rect x="120" y="232" width="520" height="22" rx="6" fill="#5f918c"/>
+  <rect x="160" y="286" width="420" height="22" rx="6" fill="#2fb8b0"/>
+  <rect x="160" y="340" width="560" height="22" rx="6" fill="#dcc9a6"/>
+  <rect x="120" y="394" width="460" height="22" rx="6" fill="#5f918c"/>
+  <text x="450" y="585" fill="#bffcff" font-family="Verdana, sans-serif" font-size="34" font-weight="700" text-anchor="middle">React Project</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Project screenshot placeholder three</title>
+  <desc id="desc">Student project board placeholder image for a portfolio project card.</desc>
+  <rect width="900" height="620" fill="#f7f3eb"/>
+  <rect x="78" y="78" width="744" height="464" rx="18" fill="#fffaf0" stroke="#d9cdb7" stroke-width="4"/>
+  <path d="M150 440 292 278l118 118 154-196 186 240" fill="none" stroke="#243f3f" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="660" cy="176" r="58" fill="#2fb8b0"/>
+  <rect x="136" y="128" width="260" height="54" rx="10" fill="#5f918c"/>
+  <rect x="136" y="210" width="172" height="30" rx="8" fill="#dcc9a6"/>
+  <text x="450" y="585" fill="#243f3f" font-family="Verdana, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Student Work</text>
+</svg>
